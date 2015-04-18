@@ -1,0 +1,33 @@
+1 ->> IF - THEN
+
+IF (condition) THEN
+  body;
+END IF;
+
+2 ->> IF -THEN-ELSE
+
+IF (condition) THEN
+  body;
+ELSE
+  body;
+END IF;
+
+3 ->> IF-THEN-ELSIF
+
+IF (condition) THEN
+  body;
+ELSIF(condition2) THEN
+  body;
+ELSE
+  body;
+END IF;
+
+4 ->> CASE
+
+CASE variable
+  WHEN value1 THEN body;
+  WHEN value2 THEN body;
+  .
+  .
+  ELSE body;
+END CASE;
