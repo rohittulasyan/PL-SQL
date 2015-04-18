@@ -1,0 +1,13 @@
+COMMENTS IN PL-SQL
+
+Characters inside comments are ignored by compiler
+
+1 => Single Line Comment
+     USE -> --(double hyphen)
+     EX  -> --single line comment here
+     
+2 => Multi Line Comment
+    USE -> /*    */
+    EX  -> /* Multi Line 
+              Comment
+              Here  */
